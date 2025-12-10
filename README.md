@@ -1,13 +1,13 @@
 <h2 align="center">✨ Hi, I'm Tishya ✨</h2>
 
 <p align="center">
-Engineering Student • Embedded Systems & IoT • PCB Design • Always Learning
+Engineering Student • Embedded Systems & IoT • PCB Design 
 </p>
 
 ---
 
 ## 🌿 About Me  
-I’m an engineering student exploring the world of **embedded systems, IoT development, and PCB design**.  
+I’m a 2nd year electronics and communication engineering student exploring the world of **embedded systems, IoT development, and PCB design**.  
 My work blends **hardware experimentation, signal interpretation, and code that interacts with the real world**.
 
 I’m especially interested in:  
@@ -34,11 +34,8 @@ I’m especially interested in:
 ---
 
 ## 📌 Current Projects  
-- **Home Automation System:**  
-  Multi-sensor setup enabling real-time monitoring, automation logic, actuator control, and IoT dashboards.
-
-- **Ball & Beam MATLAB Simulation:**  
-  System modelling, dynamic analysis, and control validation to study stability and response characteristics.
+- **ESP32-Based Game Boy Color Emulator:**  
+  MImplementing an ESP32-driven console capable of running GBC ROMs, optimizing display refresh, input handling, and memory performance.
 
 ---
 
@@ -52,7 +49,7 @@ I’m especially interested in:
 
 ## 📫 Get in Touch  
 - Email: <tishyayadlapalli@gmail.com>
-- LinkedIn: <www.linkedin.com/in/tishya-yadlapalli-813591318>  
+- LinkedIn: www.linkedin.com/in/tishya-yadlapalli-813591318  
 
 ---
 
