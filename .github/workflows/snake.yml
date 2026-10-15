@@ -1,0 +1,32 @@
+name: generate snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: generate lilac snake from contribution graph
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#6B3FB8&color_dots=#EDE4F7,#D9C4F0,#C4A7E7,#9F7AEA,#7C4DCC
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#E7C6FF&color_dots=#161B22,#3B2A5C,#5B3D91,#8A63D2,#B794F4
+
+      - name: push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
