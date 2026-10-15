@@ -4,7 +4,7 @@
 <tr>
 <td width="65%" valign="middle">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=9F7AEA&vCenter=true&width=440&lines=hi%2C+I'm+Lilac;I+make+microcontrollers+do+things;DMA%2C+SPI%2C+UART%2C+RTOS+-+the+fun+stuff;ML+on+tiny+hardware" alt="typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=9F7AEA&vCenter=true&width=440&lines=hi%2C+I'm+Tishya;I+make+microcontrollers+do+things;DMA%2C+SPI%2C+UART%2C+RTOS+-+the+fun+stuff;ML+on+tiny+hardware" alt="typing intro" />
 
 - Embedded systems + firmware, with a side of control systems and ML
 - Into real-time systems, low-level peripherals (DMA, SPI, UART), and inference on constrained hardware
