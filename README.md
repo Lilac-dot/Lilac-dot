@@ -59,9 +59,9 @@ Real-time graphics engine with a custom framebuffer and DMA-driven SPI rendering
 </td>
 <td width="50%" valign="top">
 
-#### [Eczema Detection](https://github.com/Lilac-dot/eczema-detection)
-Wearable-oriented detection pipeline combining image and tabular models.
-<br/>`PyTorch` `ResNet18` `LightGBM`
+#### [DermEdge](https://github.com/Lilac-dot/DermEdge)
+Private eczema screening and flare tracking that runs on your own device: camera, GSR wristband and on-device AI. [Live demo](https://derm-edge.vercel.app)
+<br/>`PyTorch` `CLIP` `ESP-IDF` `WebGPU`
 
 </td>
 </tr>
