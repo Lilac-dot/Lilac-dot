@@ -9,7 +9,7 @@
 B.Tech ECE student at IIIT Sri City (2024–2028), focused on embedded systems and firmware.
 
 - Wrote the firmware for [Walkman](https://github.com/guthib-iiits/walkman-imagined), an STM32H743 audio player: CS43131 DAC over SAI DMA, MP3/WAV streaming, UC8151D e-paper UI, FatFs on SD and eMMC, USB mass storage
-- Built [DermEdge](https://github.com/Lilac-dot/DermEdge): on-device eczema screening with CLIP in the browser (ONNX Runtime Web) and an ESP32 wristband that detects scratching from an ADXL345. [Live demo](https://derm-edge.vercel.app)
+- Built [DermEdge](https://github.com/Lilac-dot/DermEdge): on-device eczema screening with CLIP in the browser (ONNX Runtime Web) and an ESP32 wristband, tested as a breadboard prototype, that detects scratching from an ADXL345. [Live demo](https://derm-edge.vercel.app)
 - Built an [ESP32 graphics engine](https://github.com/Lilac-dot/ESP32-DMA-Snake-Game) in ESP-IDF with DMA-driven SPI rendering and a custom framebuffer
 - [Edge ML research](https://github.com/Lilac-dot/eczema-detection): INT8 quantization and pruning of 9 CNNs; found a PyTorch qnnpack quantization bug and a workaround
 
