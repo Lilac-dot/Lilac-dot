@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E6D6F5,100:9F7AEA&height=180&section=header&text=Tishya%20Yadlapalli&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Embedded%20%E2%80%A2%20Firmware%20%E2%80%A2%20Control%20%E2%80%A2%20ML&descAlignY=58&descSize=16" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E6D6F5,100:9F7AEA&height=180&section=header&text=Tishya%20Yadlapalli&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Embedded%20%E2%80%A2%20Firmware%20%E2%80%A2%20ML&descAlignY=58&descSize=16" />
 
 <table border="0">
 <tr>
@@ -9,9 +9,8 @@
 B.Tech ECE student at IIIT Sri City (2024–2028), focused on embedded systems and firmware.
 
 - Real-time systems and low-level peripherals (DMA, SPI, UART, I2C)
+- Firmware for STM32 and ESP32
 - ML inference on constrained hardware
-- Control systems
-- Currently learning STM32
 
 <a href="https://www.linkedin.com/in/tishya-yadlapalli-813591318"><img src="https://img.shields.io/badge/LinkedIn-9F7AEA?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <img src="https://img.shields.io/badge/B.Tech%20ECE-IIIT%20Sri%20City-C4A7E7?style=for-the-badge" />
@@ -38,6 +37,8 @@ B.Tech ECE student at IIIT Sri City (2024–2028), focused on embedded systems a
 <img src="https://img.shields.io/badge/ESP--IDF-E6D6F5?style=flat-square&logo=espressif&logoColor=9F7AEA" />
 <img src="https://img.shields.io/badge/FreeRTOS-E6D6F5?style=flat-square" />
 <img src="https://img.shields.io/badge/STM32-E6D6F5?style=flat-square&logo=stmicroelectronics&logoColor=9F7AEA" />
+<img src="https://img.shields.io/badge/STM32CubeMX-E6D6F5?style=flat-square&logo=stmicroelectronics&logoColor=9F7AEA" />
+<img src="https://img.shields.io/badge/STM32CubeIDE-E6D6F5?style=flat-square&logo=stmicroelectronics&logoColor=9F7AEA" />
 <img src="https://img.shields.io/badge/8051%20%2F%208086-E6D6F5?style=flat-square" />
 <img src="https://img.shields.io/badge/LightGBM-E6D6F5?style=flat-square" />
 <img src="https://img.shields.io/badge/LTspice-E6D6F5?style=flat-square" />
@@ -50,8 +51,6 @@ B.Tech ECE student at IIIT Sri City (2024–2028), focused on embedded systems a
 ### Currently working on
 
 - **GroundWatch**: seismic intrusion detection on the 8051, with an FPGA co-processor for INT8 inference over UART (team project)
-- **STM32H743 audio player**: firmware for a team hardware project
-
 ---
 
 ### Contributions
