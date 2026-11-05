@@ -1,19 +1,10 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E6D6F5,100:9F7AEA&height=180&section=header&text=Tishya%20Yadlapalli&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Embedded%20%E2%80%A2%20Firmware%20%E2%80%A2%20Control%20%E2%80%A2%20ML&descAlignY=58&descSize=16" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E6D6F5,100:9F7AEA&height=180&section=header&text=Tishya%20Yadlapalli&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=datasheet%20%E2%80%A2%20rev.%202026%20%E2%80%A2%20embedded%20%2F%20firmware%20%2F%20control%20%2F%20ML&descAlignY=58&descSize=15" />
 
 <table border="0">
 <tr>
 <td width="65%" valign="middle">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=9F7AEA&vCenter=true&width=440&lines=hi%2C+I'm+Tishya;I+make+microcontrollers+do+things;DMA%2C+SPI%2C+UART%2C+RTOS+-+the+fun+stuff;ML+on+tiny+hardware" alt="typing intro" />
-
-- Embedded systems + firmware, with a side of control systems and ML
-- Into real-time systems, low-level peripherals (DMA, SPI, UART), and inference on constrained hardware
-- **Mechatronics Wing Lead** @ Connexion
-- **Payload & Design** @ Student Satellite Group
-- Currently learning **STM32**
-
-<a href="https://www.linkedin.com/in/tishya-yadlapalli-813591318"><img src="https://img.shields.io/badge/LinkedIn-9F7AEA?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<img src="https://img.shields.io/badge/B.Tech%20ECE-IIIT%20Sri%20City-C4A7E7?style=for-the-badge" />
+<img src="./assets/boot-log.svg" width="100%" alt="boot log: clock tree 480 MHz, mounting /dev/ece at IIIT Sri City, loading DMA SPI UART I2C drivers, starting FreeRTOS, linking INT8 ML runtime, warning: still fighting the STM32 HAL, all systems nominal — hi, I'm Tishya" />
 
 </td>
 <td width="35%" align="center" valign="middle">
@@ -24,9 +15,30 @@
 </tr>
 </table>
 
+<div align="center">
+
+<a href="https://www.linkedin.com/in/tishya-yadlapalli-813591318"><img src="https://img.shields.io/badge/LinkedIn-9F7AEA?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<img src="https://img.shields.io/badge/B.Tech%20ECE-IIIT%20Sri%20City-C4A7E7?style=for-the-badge" />
+<img src="https://img.shields.io/badge/status-shipping%20firmware-E6D6F5?style=for-the-badge&labelColor=9F7AEA" />
+
+</div>
+
 ---
 
-### toolbox
+### `§1` general description
+
+Embedded engineer, student grade. Runs best close to the metal: real-time systems, low-level peripherals, and ML inference squeezed onto constrained hardware. Side modules in control systems.
+
+### `§2` pin configuration
+
+| pin | signal | function |
+|:---:|:---|:---|
+| `1` | `MECH_LEAD` | Mechatronics Wing Lead @ Connexion |
+| `2` | `SAT_PAYLOAD` | Payload & Design @ Student Satellite Group |
+| `3` | `EDU` | B.Tech ECE @ IIIT Sri City · 2024–28 |
+| `4` | `DBG` | currently learning **STM32** |
+
+### `§3` supported toolchain
 
 <div align="center">
 
@@ -44,67 +56,20 @@
 
 </div>
 
----
+### `§4` firmware in development
 
-### featured projects
+| build | stage |
+|:---|:---:|
+| **GroundWatch** · seismic intrusion detection: 8051 RTOS for sensing/alerts + FPGA co-processor for INT8 inference over UART *(team)* | `in dev` |
+| **Walkman** · STM32H743 audio player firmware *(team)* | `bring-up` |
 
-<table>
-<tr>
-<td width="50%" valign="top">
+> finished projects → **pinned repos below** ↓
 
-#### [ESP32 DMA Snake Game](https://github.com/Lilac-dot/ESP32-DMA-Snake-Game)
-Real-time graphics engine with a custom framebuffer and DMA-driven SPI rendering.
-<br/>`ESP-IDF` `FreeRTOS` `C/C++`
+### `§5` errata
 
-</td>
-<td width="50%" valign="top">
-
-#### [DermEdge](https://github.com/Lilac-dot/DermEdge)
-Private eczema screening and flare tracking that runs on your own device: camera, GSR wristband and on-device AI. [Live demo](https://derm-edge.vercel.app)
-<br/>`PyTorch` `CLIP` `ESP-IDF` `WebGPU`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [PID Beam Balancer](https://github.com/Lilac-dot/PID-Beam-Balancer)
-Ball-and-beam stabilised with PID, servo actuation and ultrasonic feedback.
-<br/>`Arduino` `C++` `MATLAB`
-
-</td>
-<td width="50%" valign="top">
-
-#### [QCA Time-to-Digital Converter](https://github.com/Lilac-dot/Time-to-Digital-Converter-QCA)
-Reproduction of a low-power QCA TDC from a 2025 IEEE Access paper.
-<br/>`QCADesigner`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [Mic Amplifier w/ Class AB Driver](https://github.com/Lilac-dot/Microphone-Amplifier-with-Class-AB-Driver)
-Analog mic preamp with a Class AB output stage, simulated in SPICE.
-<br/>`LTspice`
-
-</td>
-<td width="50%" valign="top">
-
-#### [Home Automation System](https://github.com/Lilac-dot/Home-Automation-System)
-Sensor-driven automation with an Arduino controller + ESP8266 node.
-<br/>`Arduino` `ESP8266` `C++`
-
-</td>
-</tr>
-</table>
-
----
-
-### currently building
-
-- **GroundWatch** - seismic intrusion detection: 8051 RTOS for sensing/alerts + FPGA co-processor for INT8 inference over UART *(team)*
-- **STM32H743 audio device** - firmware for a team hardware project
+| id | issue | workaround |
+|:---:|:---|:---|
+| `E1` | will bring up DMA unprompted | none known |
 
 ---
 
@@ -118,4 +83,4 @@ Sensor-driven automation with an Arduino controller + ESP8266 node.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:9F7AEA,100:E6D6F5&height=100&section=footer" />
 
-<sub>Snake by <a href="https://github.com/Platane/snk">Platane/snk</a> (MIT). Pixel cat is original.</sub>
+<sub>Snake by <a href="https://github.com/Platane/snk">Platane/snk</a> (MIT). Pixel cat and boot log are original.</sub>
