@@ -11,10 +11,10 @@ B.Tech ECE student at IIIT Sri City (2024–2028), focused on embedded systems a
 
 ### Tech stack
 
-**Languages:** C, C++, Python, MATLAB
-**Embedded:** ESP-IDF, FreeRTOS, STM32, Arduino, 8051 / 8086
-**ML:** PyTorch, LightGBM
-**Tools:** Git, Linux, LaTeX, LTspice, QCADesigner
+- **Languages:** C, C++, Python, MATLAB
+- **Embedded:** ESP-IDF, FreeRTOS, STM32, Arduino, 8051 / 8086
+- **ML:** PyTorch, LightGBM
+- **Tools:** Git, Linux, LaTeX, LTspice, QCADesigner
 
 ### Currently working on
 
