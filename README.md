@@ -8,9 +8,10 @@
 
 B.Tech ECE student at IIIT Sri City (2024–2028), focused on embedded systems and firmware.
 
-- Real-time systems and low-level peripherals (DMA, SPI, UART, I2C)
-- Firmware for STM32 and ESP32
-- ML inference on constrained hardware
+- Wrote the firmware for [Walkman](https://github.com/guthib-iiits/walkman-imagined), an STM32H743 audio player: CS43131 DAC over SAI DMA, MP3/WAV streaming, UC8151D e-paper UI, FatFs on SD and eMMC, USB mass storage
+- Built [DermEdge](https://github.com/Lilac-dot/DermEdge): on-device eczema screening with CLIP in the browser (ONNX Runtime Web) and an ESP32 wristband that detects scratching from an ADXL345. [Live demo](https://derm-edge.vercel.app)
+- Built an [ESP32 graphics engine](https://github.com/Lilac-dot/ESP32-DMA-Snake-Game) in ESP-IDF with DMA-driven SPI rendering and a custom framebuffer
+- [Edge ML research](https://github.com/Lilac-dot/eczema-detection): INT8 quantization and pruning of 9 CNNs; found a PyTorch qnnpack quantization bug and a workaround
 
 <a href="https://www.linkedin.com/in/tishya-yadlapalli-813591318"><img src="https://img.shields.io/badge/LinkedIn-9F7AEA?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <img src="https://img.shields.io/badge/B.Tech%20ECE-IIIT%20Sri%20City-C4A7E7?style=for-the-badge" />
@@ -49,7 +50,7 @@ B.Tech ECE student at IIIT Sri City (2024–2028), focused on embedded systems a
 
 ### Currently working on
 
-- **GroundWatch**: seismic intrusion detection on the 8051, with an FPGA co-processor for INT8 inference over UART (team project)
+- **[GroundWatch](https://github.com/Lilac-dot/GroundWatch)**: seismic intrusion detection and localization on an 8052 (AT89S52). Three buried piezos plus PIR, magnetometer and microphone, a 1 ms ISR for feature extraction and a task scheduler. Team project
 ---
 
 ### Contributions
