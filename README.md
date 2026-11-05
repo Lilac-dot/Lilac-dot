@@ -40,7 +40,6 @@ B.Tech ECE student at IIIT Sri City (2024–2028), focused on embedded systems a
 <img src="https://img.shields.io/badge/STM32CubeMX-E6D6F5?style=flat-square&logo=stmicroelectronics&logoColor=9F7AEA" />
 <img src="https://img.shields.io/badge/STM32CubeIDE-E6D6F5?style=flat-square&logo=stmicroelectronics&logoColor=9F7AEA" />
 <img src="https://img.shields.io/badge/8051%20%2F%208086-E6D6F5?style=flat-square" />
-<img src="https://img.shields.io/badge/LightGBM-E6D6F5?style=flat-square" />
 <img src="https://img.shields.io/badge/LTspice-E6D6F5?style=flat-square" />
 <img src="https://img.shields.io/badge/QCADesigner-E6D6F5?style=flat-square" />
 
