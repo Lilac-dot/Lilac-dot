@@ -52,7 +52,7 @@ B.Tech ECE student at IIIT Sri City (2024–2028), focused on embedded systems a
 
 - **[GroundWatch](https://github.com/Lilac-dot/GroundWatch)**: seismic intrusion detection and localization on an 8052 (AT89S52). Three buried piezos plus PIR, magnetometer and microphone, a 1 ms ISR for feature extraction and a task scheduler. Firmware done, wiring up the hardware now. Team project
 - **[DermEdge band](https://github.com/Lilac-dot/DermEdge/tree/main/firmware_dermedge/band)**: taking the ESP32 wristband from breadboard to a wearable prototype, and moving scratch detection to faster ADXL345 sampling
-- **[QCA time-to-digital converter](https://github.com/Lilac-dot/Time-to-Digital-Converter-QCA)**: replicating an IEEE Access 2025 design in QCADesigner. The conventional TDC reproduces; the paper's proposed design doesn't yet, and I've traced it to a clock-zone conflict
+- **[QCA time-to-digital converter](https://github.com/Lilac-dot/Time-to-Digital-Converter-QCA)**: replicating an IEEE Access 2025 design in QCADesigner. The conventional TDC reproduces; the paper's proposed design doesn't yet, traced to a clock-zone conflict. Team project
 
 ---
 
